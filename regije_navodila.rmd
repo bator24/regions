@@ -13,6 +13,9 @@ Order Mark you save network in a Unicode file.
 
 
 # Pajek uporaba
+Branje .net datoteke
+File/Network/Read -> izbereš .net file
+
 Odstranitev loopov
 Network/Create New Netwrok/Remove/Loops
 
