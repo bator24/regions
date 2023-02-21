@@ -1,0 +1,39 @@
+# Navodila za risanje omrežij turističnih regij v Pajku
+
+1. Za uporabo R datoteke je treba .sav file exportat kot CSV
+2. V delovnem directoryu je potrebno imeti file SLO_OBCINE.xlsx
+3. Poženeš R datoteko regije.r za izdelavo datoteke .net Pajek datoteke
+
+# Pajek uporaba
+Odstranitev loopov
+Network/Create New Netwrok/Remove/Loops
+
+Risanje omrežja
+Draw/Network
+
+Sprememba omrežja, da paše na stran
+Options/Transform/Fit Area/Max(x,y,z)
+
+Obračanje omrežja
+Options/Transfrom/Rotate 2D -> izbereš za koliko stopinj se obrne
+
+Izbira barv relacij
+Options/Colors/Relation Colors -> izbereš barve za številko relacije
+
+Barvanje glede na relacijo
+Options/Colors/Arcs/Relation Number
+
+Pregled povezav
+Network/Multiple Relation/Info
+
+Prikaz le enega izmed relationov
+Options/Lines/Draw Lines/Relations -> izbereš katere relatione hočeš prikazati
+
+Krepko povezani clusterji
+Network/Create Partition/Components/Strong
+
+Odstranitev povezav med clusterji
+Operations/Network+Partition/Transform/Remove Lines/Between Clusters
+
+Izbira relacije za novo omrežje
+Network/Multiple Relations/Select Relation -> izbereš kateri relation bo vsebovalo omrežje
