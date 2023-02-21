@@ -4,6 +4,14 @@
 2. V delovnem directoryu je potrebno imeti file SLO_OBCINE.xlsx
 3. Poženeš R datoteko regije.r za izdelavo datoteke .net Pajek datoteke
 
+# Unicode branje datoteke s posebnimi znaki č,š,ž
+Using the free Unicode editor (http://www.babelstone.co.uk/Software/BabelPad.html) we prepare the Unicode version
+of the *.NET file. Use the U tool (Unicode table) to enter the Unicode
+characters.
+• Using the BabelPad option File/Save as/UTF8 and checking Byte
+Order Mark you save network in a Unicode file.
+
+
 # Pajek uporaba
 Odstranitev loopov
 Network/Create New Netwrok/Remove/Loops
