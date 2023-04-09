@@ -48,3 +48,8 @@ Operations/Network+Partition/Transform/Remove Lines/Between Clusters
 
 Izbira relacije za novo omrežje
 Network/Multiple Relations/Select Relation -> izbereš kateri relation bo vsebovalo omrežje
+
+Risanje omrežja z interaktivnimi vozljišči
+Options / Mark Vertices Using / Labels as Tooltips
+Export / Options / SVG Tooltips: Vertices
+http://mrvar.fdv.uni-lj.si/pajek/Symbols/symbols-examples.htm
