@@ -53,3 +53,19 @@ Risanje omrežja z interaktivnimi vozljišči
 Options / Mark Vertices Using / Labels as Tooltips
 Export / Options / SVG Tooltips: Vertices
 http://mrvar.fdv.uni-lj.si/pajek/Symbols/symbols-examples.htm
+
+Dodajanje tooltipov s kodo
+<!-- Vertex:     1 -->
+<g>
+<ellipse cx="378.21" cy="419.84" rx="10.00" ry="10.00" style="fill:rgb(255,217,188);stroke:rgb(102,0,0);stroke-width:0.50;"/>
+<text x="383.38" y="439.16" style="font-family:Arial;font-weight: bold;font-size:15px;fill:rgb(173,0,0)">A</text>
+<title>Mark</title>
+</g>
+<!-- Vertex:     2 -->
+<g>
+<ellipse cx="228.89" cy="370.22" rx="10.00" ry="10.00" style="fill:rgb(255,217,188);stroke:rgb(102,0,0);stroke-width:0.50;"/>
+<text x="234.06" y="389.54" style="font-family:Arial;font-weight: bold;font-size:15px;fill:rgb(173,0,0)">B</text>
+<title>Vlado</title>
+</g>
+
+Dodajanje zemljevida
